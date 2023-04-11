@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Card Slider Using HTML, CSS and Javascript</title>
+        <link 
+            href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+            rel='stylesheet'
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container swiper mySwiper">
+            <div class="card_content swiper-wrapper">
+                <div class="cards swiper-slide">
+                    <img src="imgs/man5.jpeg"  alt="">
+                    <div class="title">
+                        <h2>Manos Akpujiha</h2>
+                    </div>
+                    <div class="content">
+                        <p>CTO</p>
+                        <div class="social_icons">
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-twitter"></i>
+                            <i class="bx bxl-linkedin"></i>
+                            <i class="bx bxl-instagram-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards swiper-slide">
+                    <img src="imgs/man1.jpg"  alt="">
+                    <div class="title">
+                        <h2>Manos</h2>
+                    </div>
+                    <div class="content">
+                        <p>Chief Executive Officer</p>
+                        <div class="social_icons">
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-twitter"></i>
+                            <i class="bx bxl-linkedin"></i>
+                            <i class="bx bxl-instagram-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards swiper-slide">
+                    <img src="imgs/man4.jpeg"  alt="">
+                    <div class="title">
+                        <h2>manos</h2>
+                    </div>
+                    <div class="content">
+                        <p>Engineering Manager</p>
+                        <div class="social_icons">
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-twitter"></i>
+                            <i class="bx bxl-linkedin"></i>
+                            <i class="bx bxl-instagram-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards swiper-slide">
+                    <img src="imgs/team-1web.jpg"  alt="">
+                    <div class="title">
+                        <h2>Walter White</h2>
+                    </div>
+                    <div class="content">
+                        <p>Chief Executive Officer</p>
+                        <div class="social_icons">
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-twitter"></i>
+                            <i class="bx bxl-linkedin"></i>
+                            <i class="bx bxl-instagram-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards swiper-slide">
+                    <img src="imgs/team-1web.jpg"  alt="">
+                    <div class="title">
+                        <h2>Walter White</h2>
+                    </div>
+                    <div class="content">
+                        <p>Chief Executive Officer</p>
+                        <div class="social_icons">
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-twitter"></i>
+                            <i class="bx bxl-linkedin"></i>
+                            <i class="bx bxl-instagram-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards swiper-slide">
+                    <img src="imgs/team-1web.jpg"  alt="">
+                    <div class="title">
+                        <h2>Walter White</h2>
+                    </div>
+                    <div class="content">
+                        <p>Chief Executive Officer</p>
+                        <div class="social_icons">
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-twitter"></i>
+                            <i class="bx bxl-linkedin"></i>
+                            <i class="bx bxl-instagram-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards swiper-slide">
+                    <img src="imgs/team-1web.jpg"  alt="">
+                    <div class="title">
+                        <h2>Walter White</h2>
+                    </div>
+                    <div class="content">
+                        <p>Chief Executive Officer</p>
+                        <div class="social_icons">
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-twitter"></i>
+                            <i class="bx bxl-linkedin"></i>
+                            <i class="bx bxl-instagram-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards swiper-slide">
+                    <img src="imgs/team-1web.jpg"  alt="">
+                    <div class="title">
+                        <h2>Walter White</h2>
+                    </div>
+                    <div class="content">
+                        <p>Chief Executive Officer</p>
+                        <div class="social_icons">
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-twitter"></i>
+                            <i class="bx bxl-linkedin"></i>
+                            <i class="bx bxl-instagram-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-scrollbar"></div>
+            <div class="swiper-pagination"></div>
+    
+           
+        </div>
+        
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   let swiper = new Swiper(".mySwiper", {
+     slidesPerView: 1,
+     spaceBetween: 100,
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,
+     },
+     navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+      keyboard: {
+        enabled: true,
+      },
+     breakpoints: {
+       640: {
+         slidesPerView: 2,
+         spaceBetween: 20,
+       },
+       768: {
+         slidesPerView: 4,
+         spaceBetween: 40,
+       },
+       1024: {
+         slidesPerView: 4,
+         spaceBetween: 0,
+       },
+     },
+   });
+
+
+   console.log('hello')
+ </script>
+    </body>
+</html>
